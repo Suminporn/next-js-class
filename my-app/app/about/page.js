@@ -1,9 +1,10 @@
 import MenuBar from "@/components/Menubar";
-export default function Home() {
+
+export default function About() {
   return (
     <div>
       <MenuBar />
-      Home
+      <h1>About</h1>
     </div>
   )
 }
