@@ -2,11 +2,16 @@ import MenuBar from "@/components/Menubar";
 
 export default function Home() {
   return (
-    <><MenuBar />
-      <main className="flex flex-col items-center justify-center min-h-screen bg-blue-100">
-        <h1 className="text-4xl font-bold text-orange-500">Homepage</h1>
-        <p className="mt-4 text-lg text-gray-700">ยินดีต้อนรับสู่เว็บของเรา</p>
+    <div className="wrapper p-[16px] pb-[100px]">
+      <header className="flex justify-between items-center mb-[16px]">
+        <h1 className="text-[58px] font-bold">Your Task</h1>
+        <img className="w-[48px] h-[40px]" src="/hamburger.png" />
+      </header>
+      <main className="flex flex-col gap-[20px]">
+        <input type="text" placeholder="Search" className="p-[16px] pl-[24px] border-gray-300 border-[1px] rounded-[100px] w-[100%] "/>
+        <img className="rounded-[24px] width-[100%]" src="img1.png" />
+        <img className="rounded-[24px] width-[100%]" src="img1.png" />
       </main>
-    </>
+    </div>
   )
 }
