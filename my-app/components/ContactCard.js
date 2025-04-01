@@ -1,4 +1,4 @@
-export default function ContactCard({name,description,imageUrl = "/img1.png"}) {
+export default function ContactCard({name,description,imageUrl}) {
     return (
         <div className="bg-orange-50 shadow-md rounded-[20px] flex items-center gap-[10px]">
             <img src={imageUrl} className="w-[48px] h-[48px] rounded-[100px]"/>
